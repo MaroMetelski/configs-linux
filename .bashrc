@@ -116,6 +116,8 @@ export WORKON_HOME=$HOME/.virtualenvs
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 export PATH=~/software/flutter/bin:$PATH
 export PATH=~/software/android-studio/bin:$PATH
+export GEM_HOME=$HOME/.gems
+export PATH=$HOME/.gems/bin:$PATH
 source ~/.local/bin/virtualenvwrapper.sh
 workon main
 
